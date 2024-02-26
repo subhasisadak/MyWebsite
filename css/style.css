@@ -51,13 +51,23 @@ header {
     color: var(--BGCOLOR);
 }
 
+.fa-angles-up {
+    position: fixed;
+    z-index: 10;
+    font-size: 40px;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+    color: rgb(27, 104, 88);
+}
+
 /* this is style of nav block we have to change it in media */
 .nav_links {
     position: fixed;
     right: -1200px;
     height: 100dvh;
     background-color: var(--HEADERCOLOR);
-    z-index: 1000;
+    z-index: 10000;
     width: 45%;
     top: 0;
     padding: var(--PADDING);
@@ -133,13 +143,9 @@ header {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.fa-angles-up {
-    position: fixed;
-    z-index: 10000;
-    font-size: 40px;
-    right: 20px;
-    bottom: 20px;
-    display: none;
+
+i:hover{
+    cursor: pointer;
 }
 
 .qualification {
@@ -184,13 +190,14 @@ header {
     grid-row-gap: 10px;
     overflow: hidden;
     grid-auto-flow: column dense;
-    background-color: rgb(13, 143, 143);
+    /* background-color: rgb(13, 143, 143); */
+    background-image: linear-gradient(rgba(230, 198, 198, 0.669), rgba(230, 230, 97, 0.749), rgba(106, 168, 176, 0.703));
     font-size: 20px;
     /* height: 100dvh; */
-    /* border-radius: 20px; */
+    border-radius: 20px;
 }
 .qualificationColumn .education, .skills{
-    background-color: #d36161;
+    background-color: rgba(170, 141, 236, 0.295);
     border-radius: 30px;
     padding: 20px;
     margin: 20px;

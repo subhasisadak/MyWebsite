@@ -223,7 +223,7 @@ i:hover{
 }
 @media screen and (min-width: 644px) {
     .firstpage {
-        /* height: 95dvh; */
+        height: 95dvh;
     }
 }
 @media screen and (min-width: 800px) {

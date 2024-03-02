@@ -149,8 +149,8 @@ i:hover{
 }
 
 .qualification {
-    padding: var(--PADDING);
-    margin: var(--MARGIN);
+    /* padding: var(--PADDING); */
+    /* margin: var(--MARGIN); */
     margin-top: 30px;
     /* display: inline; */
 }
@@ -183,8 +183,9 @@ i:hover{
 }
 
 .qualificationColumn{
-    padding: 10px;
-    margin: 10px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    margin-top: 30px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 10px;
@@ -214,6 +215,14 @@ i:hover{
     margin: 8px;
     padding: 8px;
 } */
+
+.certificateSection{
+    margin-top: 30px;
+}
+
+.certificateSection h2{
+    font-family: var(--HEADERFONT);
+}
 
 /* all media from here */
 @media screen and (min-width: 550px) {

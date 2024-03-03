@@ -58,7 +58,7 @@ header {
     right: 20px;
     bottom: 20px;
     display: none;
-    color: rgb(27, 104, 88);
+    color: rgba(173, 57, 227, 0.986);
 }
 
 /* this is style of nav block we have to change it in media */
@@ -464,10 +464,6 @@ footer a:hover{
     }
     .slider .slides:nth-child(9){
         left: 720px;
-    }
-    footer .disable{
-        display: none;
-        color: #d36161;
     }
 }
 

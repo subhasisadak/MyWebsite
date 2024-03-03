@@ -465,6 +465,10 @@ footer a:hover{
     .slider .slides:nth-child(9){
         left: 720px;
     }
+    footer .disable{
+        display: none;
+        color: #d36161;
+    }
 }
 
 @media screen and (min-width: 550px) {

@@ -137,7 +137,7 @@ header {
 
 .firstpage p {
     padding: 10px;
-    width: 80%;
+    width: 90%;
     height: auto;
     font: var(--FRONTPAGEFONT);
     font-family: 'Bebas Neue', sans-serif;
@@ -425,6 +425,27 @@ footer a:hover{
     font-size: 16px;
     padding: 7px;
 }
+
+/* adding styling on about page */
+.about{
+    width: 100%;
+    /* height: 90dvh; */
+    background-image: radial-gradient(rgba(122, 248, 206, 0.779), rgba(153, 212, 244, 0.6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* margin: var(--MARGIN); */
+    font-size: xx-large;
+}
+.about p{
+    width: 90%;
+    font: var(--FRONTPAGEFONT);
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgba(30, 2, 53, 0.797);
+}
+
+
 /* all media from here */
 
 @media (max-width: 800px){
@@ -474,6 +495,9 @@ footer a:hover{
 }
 @media screen and (min-width: 644px) {
     .firstpage {
+        height: 95dvh;
+    }
+    .about{
         height: 95dvh;
     }
 }

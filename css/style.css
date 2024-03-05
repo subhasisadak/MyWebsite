@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 * {
     padding: 0;
@@ -139,8 +140,8 @@ header {
     padding: 10px;
     width: 90%;
     height: auto;
-    font: var(--FRONTPAGEFONT);
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Caveat", cursive;
+    font-weight: 1000;
 }
 
 
@@ -196,6 +197,8 @@ i:hover{
     font-size: 20px;
     /* height: 100dvh; */
     border-radius: 20px;
+    font-family: "Caveat", cursive;
+    font-weight: 1000;
 }
 .qualificationColumn .education, .skills{
     background-color: rgba(170, 141, 236, 0.295);
@@ -430,7 +433,7 @@ footer a:hover{
 .about{
     width: 100%;
     /* height: 90dvh; */
-    background-image: radial-gradient(rgba(122, 248, 206, 0.779), rgba(153, 212, 244, 0.6));
+    background-image: radial-gradient(hwb(0 99% 0%), rgb(112, 112, 244));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -440,12 +443,33 @@ footer a:hover{
 }
 .about p{
     width: 90%;
-    font: var(--FRONTPAGEFONT);
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgba(30, 2, 53, 0.797);
+    font-family: "Caveat", cursive;
+    font-weight: 1000;
+    color: black
 }
 
-
+.contact{
+    width: 100%;
+    /* height: 90dvh; */
+    background-image: radial-gradient(hwb(0 99% 0%), rgb(112, 112, 244));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* margin: var(--MARGIN); */
+    font-size: xx-large;
+}
+.contact p{
+    width: 90%;
+    /* font: var(--FRONTPAGEFONT); */
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: "Caveat", cursive;
+    font-weight: 1000;
+    color: black;
+}
+.contact a:any-link{
+    color: rgba(27, 5, 88, 0.658);
+}
 /* all media from here */
 
 @media (max-width: 800px){
@@ -499,6 +523,9 @@ footer a:hover{
     }
     .about{
         height: 95dvh;
+    }
+    .contact{
+        height: 70dvh;
     }
 }
 @media screen and (min-width: 800px) {

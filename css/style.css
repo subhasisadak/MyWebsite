@@ -464,7 +464,7 @@ footer a:hover{
     /* font: var(--FRONTPAGEFONT); */
     /* font-family: 'Bebas Neue', sans-serif; */
     font-family: "Caveat", cursive;
-    font-weight: 1000;
+    /* font-weight: 1000; */
     color: black;
 }
 .contact a:any-link{

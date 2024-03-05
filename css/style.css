@@ -457,7 +457,7 @@ footer a:hover{
     align-items: center;
     padding: 10px;
     /* margin: var(--MARGIN); */
-    font-size: xx-large;
+    /* font-size: xx-large; */
 }
 .contact p{
     width: 90%;
@@ -526,6 +526,7 @@ footer a:hover{
     }
     .contact{
         height: 70dvh;
+        font-size: xx-large;
     }
 }
 @media screen and (min-width: 800px) {
